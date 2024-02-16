@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #212121;
+}
+header {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+header h1,
+h3 {
+    color: #14ffec;
+}
+header h3 {
+    margin-top: 0;
+    font-size: 36px;
+}
+header h1 {
+    margin-bottom: 0;
+    font-size: 46px;
+}
+h2 {
+    color: #14ffec;
+    overflow: hidden; /* Mencegah teks melampaui batas container */
+    white-space: nowrap; /* Mencegah teks wrap */
+    margin: 0 auto; /* Posisi tengah */
+    letter-spacing: 0.15em; /* Spasi antar huruf */
+    animation: typing 2s steps(30, end) infinite; /* Animasi */
+}
+.subheader {
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: sticky;
+    top: 0;
+    background-color: #212121;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #14ffec;
+}
+nav h1 {
+    font-family: "Saira Stencil One", sans-serif;
+    color: #ffffff;
+}
+footer {
+    padding: 10px 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.judul-admin {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.container {
+    color: #ffffff;
+    margin: auto;
+}
+
+.hijau {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+}
+.biru {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.merah {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.kuning {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+table {
+    margin-top: 15px;
+    width:100%;
+}
+
+td {
+    padding: 10px;
+}
